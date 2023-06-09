@@ -37,6 +37,9 @@ const links = ref([
     { title: 'Фильмы', url: '/movie' },
     { title: 'Сериалы', url: '/tv' },
 ])
+const props = defineProps({
+  
+})
 
 const burger = ref(false)
 const burgerOn = () => {
