@@ -1,5 +1,5 @@
 <template>
-        <Content type="movie"/>
+        <Content type="movie" />
 </template>
 
 <script setup>

@@ -8,7 +8,6 @@ export const usePopular = defineStore({
         url: 'https://api.themoviedb.org/3/',
         popularMovies: null,
         popularTvs: null,
-
     }),
     actions: {
         async getPopular({ type, page = 1 }) {
